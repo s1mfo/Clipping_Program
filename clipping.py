@@ -47,6 +47,8 @@ menu_Setting = Menu(menu, tearoff = 0)
 menu_Setting.add_command(label = "Shortkey")
 menu.add_cascade(label = "Setting", menu = menu_Setting)
 
+# how make keyboard shortcut..?
+
 # Cropping def
 def button():
     if onButton['text'] == 'OFF':
